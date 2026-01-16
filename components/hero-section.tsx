@@ -1,0 +1,17 @@
+export function HeroSection() {
+  return (
+    <section className="mx-auto max-w-7xl px-6 py-24 md:py-32 lg:px-8">
+      <div className="max-w-3xl">
+        <h1 className="mb-6 text-5xl font-bold tracking-tight text-foreground md:text-6xl lg:text-7xl">윤호용</h1>
+        <p className="mb-4 text-xl text-muted-foreground md:text-2xl">
+          시스템 & 레벨 디자이너 | 게임플레이 프로토타이핑 특화
+        </p>
+        <p className="mb-2 text-lg text-accent font-semibold">경력: 6년</p>
+        <p className="text-pretty text-base leading-relaxed text-muted-foreground md:text-lg">
+          Building accessible, performant web applications with modern technologies. Specialized in creating seamless
+          user experiences from frontend to backend.
+        </p>
+      </div>
+    </section>
+  )
+}
