@@ -9,7 +9,7 @@ interface PortfolioSectionProps {
 }
 
 export function PortfolioSection({ data = portfolioData }: PortfolioSectionProps) {
-  const [activeFilter, setActiveFilter] = useState("all")
+  const [activeFilter, setActiveFilter] = useState("level design")
   const [activeProjectFilter, setActiveProjectFilter] = useState("all")
   const [filterType, setFilterType] = useState<"design" | "project">("design")
   const [selectedProject, setSelectedProject] = useState<(typeof data.projects)[0] | null>(null)

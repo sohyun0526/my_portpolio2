@@ -173,7 +173,7 @@ export const resumeData = {
 }
 
 export const portfolioData = {
-  categories: ["all", "level design", "system design", "prototyping"],
+  categories: ["level design", "system design", "prototyping"],
   projectCategories: ["all", "KIZNA", "PUBG:NewState", "TrinitySurvivors"],
   projectLogos: {
     all: null,
@@ -184,6 +184,15 @@ export const portfolioData = {
   projects: [
     // ============ LEVEL DESIGN ============
     // --- PUBG:NewState ---
+    {
+      title: "가메시 제작 정리",
+      category: "level design",
+      project: "PUBG:NewState",
+      image: "/portfolio/NS_LevelDesign_GrayScale_thumbnail.jpg",
+      pdfUrl: "https://blobs.vusercontent.net/blob/NewState_LevelDesign_GrayScale-L1n4OnpXlpaGXvjolCX8alZprK8B94.pdf",
+      description: "주요 건물 가메시 작업 정리",
+      tech: ["UE4", "Level Design", "Gameplay Layout"],
+    },
     {
       title: "월드 디자인",
       category: "level design",
@@ -212,7 +221,7 @@ export const portfolioData = {
       tech: ["UE4", "Level Design", "Architecture"],
     },
     {
-      title: "TDM 디인",
+      title: "TDM 디자인",
       category: "level design",
       project: "PUBG:NewState",
       image: "/portfolio/NS_LevelDesign_TDM.jpg",
